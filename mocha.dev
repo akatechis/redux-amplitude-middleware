@@ -1,0 +1,3 @@
+--reporter min
+--require @babel/register
+tests/**/*.test.js

@@ -1,0 +1,21 @@
+{
+  "name": "redux-amplitude-middleware",
+  "version": "1.0.0",
+  "description": "Redux middleware for mapping select redux actions to amplitude events.",
+  "main": "index.js",
+  "author": "akatechis",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --opts mocha.dev",
+    "dev": "mocha --opts mocha.dev --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "amplitude-js": "^4.4.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "redux": "^4.0.0"
+  }
+}
